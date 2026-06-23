@@ -28,7 +28,7 @@ After updating the repositories, I installed Docker on the Linux operating syste
 
 After Docker was installed successfully, I copied the installation command from the Uptime Kuma GitHub repository and deployed Uptime Kuma inside a Docker container.
 
-![Uptime Kuma Installation](screenshots/installing_uptime_kuma_on_docker_container.png)
+![Uptime Kuma Installation](screenshots/uptime_kuma_cli.png)
 
 *Figure 1.2: Deploying Uptime Kuma inside a Docker container.*
 
@@ -74,17 +74,13 @@ I also configured monitoring for the SSH service running on the Kali Linux machi
 
 I configured Telegram notifications so that alerts would be sent whenever the monitored SSH service changed status.
 
-![Telegram Setup](screenshots/setting_up_notification.png)
-
-*Figure 4.1: Configuring Telegram notifications for service monitoring alerts.*
-
 ### Testing Notification Delivery
 
 After configuring the notification settings, I tested the integration to confirm that alerts could be successfully delivered through Telegram.
 
-![Telegram Alert](screenshots/ssh_notification_from_telegram.png)
+![Telegram Setup](screenshots/setting_up_notification.png)
 
-*Figure 4.2: Telegram notification received after monitoring event detection.*
+*Figure 4.1: Telegram integration for monitoring alerts and notification testing.*
 
 ## Findings and Challenges
 
